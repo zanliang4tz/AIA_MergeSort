@@ -131,21 +131,7 @@ const highlightB = (vis, index, isPrimaryColor = true) => {
   }
 };
 
-const unhighlight = (vis, index, isPrimaryColor = true) => {
-  if (isPrimaryColor) {
-    vis.array.deselect(index);
-  } else {
-    vis.array.depatch(index);
-  }
-};
 
-const unhighlightB = (vis, index, isPrimaryColor = true) => {
-  if (isPrimaryColor) {
-    vis.arrayB.deselect(index);
-  } else {
-    vis.arrayB.depatch(index);
-  }
-};
 
 // ----------------------------------------------------------------------------------------------------------------------------
 
