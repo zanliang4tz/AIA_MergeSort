@@ -20,6 +20,7 @@ NaturalMergesort(A, size) \\B Main
         there is only one left the array is sorted. During the merging
         of consecutive runs we count the number of runs.
     \\Expl}
+    // Done \\B Done
 \\Code}
 
 \\Code{
