@@ -15,7 +15,10 @@
     "start:win32": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "test": "react-scripts test",
     "test-uf": "npm test -- ./src/algorithms/controllers/unionFind.test.js",
-    "test-234t": "npm test -- ./src/algorithms/controllers/TTFTree.test.js"
+    "test-234t": "npm test -- ./src/algorithms/controllers/TTFTree.test.js",
+    "test-qs": "npm test -- ./src/algorithms/controllers/quickSort.test.js",
+    "test-tdms": "npm test -- ./src/algorithms/controllers/msort_arr_td.test.js",
+    "test-bums": "npm test -- ./src/algorithms/controllers/msort_arr_bup.test.js"
   },
   "husky": {
     "hooks": {
@@ -96,4 +99,3 @@
     "run-script-os": "^1.1.6"
   }
 }
-
